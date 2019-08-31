@@ -1,0 +1,70 @@
+.termpage-window {
+    background-color: black;
+    border: 0px solid #888;
+    padding-top: 5px;
+}
+
+.termpage-window * {
+    font-family: 'Ubuntu Mono', 'Noto Sans SC', Courier, monospace;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.termpage-input {
+    background-color: #222;
+    color: #ddd;
+    caret-color: white;
+}
+
+.termpage-block,
+.termpage-input {
+    line-height: 20px;
+}
+
+.termpage-block {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.termpage-window a {
+    background-color: #888;
+    text-decoration: none;
+    cursor: pointer;
+}
+.termpage-window a:hover {
+    background-color: #333;
+}
+
+.termpage-menu {
+    background-color: #888;
+}
+
+.termpage-menu li:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+
+.termpage-window .prompt {
+    color: green;
+}
+
+.termpage-window .system {
+    padding: 2px 3px;
+    background: #bdc3c7;
+}
+.termpage-window .info {
+    padding: 2px 3px;
+    background: #2980b9;
+}
+.termpage-window .warning {
+    padding: 2px 3px;
+    background: #f39c12;
+}
+.termpage-window .error {
+    padding: 2px 3px;
+    background: #c0392b;
+}
+.termpage-window .success {
+    padding: 2px 3px;
+    background: #27ae60;
+}
